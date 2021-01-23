@@ -1,0 +1,73 @@
+body{
+    
+    background-image: url('sakura.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: bottom;
+    margin: 0px;
+}
+.header{
+    background-color: pink;
+}
+            
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+   
+    color: darkred;
+    font: italic;
+    font-family: Verdana ;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.grid img {
+    background-color: lightblue;
+    border: 2px solid black;
+    
+}
+.origami{
+    border-radius: 20px;
+    
+    background-color: palegreen;
+    width: 320pt;
+    border-style: none;
+    gap: 30px;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+}
+.bodyimg {
+    position: relative;
+  }
+.bodytext {
+    position: absolute;
+  top: 20px;
+  text-align: center;
+  font-family: Georgia;
+  font-style: italic;
+  
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+a:link {
+    color: blue;
+    text-decoration: none;
+  }
+  
+a:visited{
+    color: blueviolet;
+    text-decoration: none;
+}
+a:hover{
+    color: crimson;
+    text-decoration: underline;
+}
+.origami:hover img{
+    transform: scale(1.25);
+}
